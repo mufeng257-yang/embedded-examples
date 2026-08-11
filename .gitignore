@@ -83,3 +83,6 @@ JLinkSettings.ini
 *.swp
 Thumbs.db
 desktop.ini
+
+#vscode
+.vscode/
