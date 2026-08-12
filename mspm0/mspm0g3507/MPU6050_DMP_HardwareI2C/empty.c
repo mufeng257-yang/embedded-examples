@@ -13,6 +13,7 @@ int fputc(int ch, FILE *stream)
         return ch;
 }
 //ON Use MicroLIB
+//Stack_Size      EQU     0x00000800
 int main(void)
 {
     SYSCFG_DL_init();

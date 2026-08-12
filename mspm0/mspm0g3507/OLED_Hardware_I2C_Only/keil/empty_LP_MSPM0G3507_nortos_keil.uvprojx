@@ -190,7 +190,7 @@
             <hadIRAM2>1</hadIRAM2>
             <hadIROM2>1</hadIROM2>
             <StupSel>0</StupSel>
-            <useUlib>1</useUlib>
+            <useUlib>0</useUlib>
             <EndSel>0</EndSel>
             <uLtcg>0</uLtcg>
             <nSecure>0</nSecure>
@@ -338,9 +338,9 @@
             <v6Rtti>0</v6Rtti>
             <VariousControls>
               <MiscControls></MiscControls>
-              <Define>__MSPM0G3507__,MPU6050,MOTION_DRIVER_TARGET_MSPM0</Define>
+              <Define>__MSPM0G3507__</Define>
               <Undefine></Undefine>
-              <IncludePath>../;D:\ti\mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include;D:\ti\mspm0_sdk_2_10_00_04/source;..\MPU6050;..\MSPM0</IncludePath>
+              <IncludePath>../;D:\ti\mspm0_sdk_2_10_00_04/source/third_party/CMSIS/Core/Include;D:\ti\mspm0_sdk_2_10_00_04/source;..\OLED_Hardware_I2C</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -412,82 +412,32 @@
           </Files>
         </Group>
         <Group>
-          <GroupName>MPU6050</GroupName>
+          <GroupName>OLED_Hardware_I2C</GroupName>
           <Files>
             <File>
-              <FileName>dmpKey.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\MPU6050\dmpKey.h</FilePath>
-            </File>
-            <File>
-              <FileName>dmpmap.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\MPU6050\dmpmap.h</FilePath>
-            </File>
-            <File>
-              <FileName>inv_mpu.c</FileName>
+              <FileName>oled_hardware_i2c.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\MPU6050\inv_mpu.c</FilePath>
+              <FilePath>..\OLED_Hardware_I2C\oled_hardware_i2c.c</FilePath>
             </File>
             <File>
-              <FileName>inv_mpu.h</FileName>
+              <FileName>oled_hardware_i2c.h</FileName>
               <FileType>5</FileType>
-              <FilePath>..\MPU6050\inv_mpu.h</FilePath>
+              <FilePath>..\OLED_Hardware_I2C\oled_hardware_i2c.h</FilePath>
             </File>
             <File>
-              <FileName>inv_mpu_dmp_motion_driver.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\MPU6050\inv_mpu_dmp_motion_driver.c</FilePath>
-            </File>
-            <File>
-              <FileName>inv_mpu_dmp_motion_driver.h</FileName>
+              <FileName>oledfont.h</FileName>
               <FileType>5</FileType>
-              <FilePath>..\MPU6050\inv_mpu_dmp_motion_driver.h</FilePath>
+              <FilePath>..\OLED_Hardware_I2C\oledfont.h</FilePath>
             </File>
-            <File>
-              <FileName>mpu6050.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\MPU6050\mpu6050.c</FilePath>
-            </File>
-            <File>
-              <FileName>mpu6050.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\MPU6050\mpu6050.h</FilePath>
-            </File>
-            <File>
-              <FileName>mspm0_i2c.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\MPU6050\mspm0_i2c.c</FilePath>
-            </File>
-            <File>
-              <FileName>mspm0_i2c.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\MPU6050\mspm0_i2c.h</FilePath>
-            </File>
-          </Files>
-        </Group>
-        <Group>
-          <GroupName>MSPM0</GroupName>
-          <Files>
             <File>
               <FileName>clock.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\MSPM0\clock.c</FilePath>
+              <FilePath>..\OLED_Hardware_I2C\clock.c</FilePath>
             </File>
             <File>
               <FileName>clock.h</FileName>
               <FileType>5</FileType>
-              <FilePath>..\MSPM0\clock.h</FilePath>
-            </File>
-            <File>
-              <FileName>interrupt.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\MSPM0\interrupt.c</FilePath>
-            </File>
-            <File>
-              <FileName>interrupt.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\MSPM0\interrupt.h</FilePath>
+              <FilePath>..\OLED_Hardware_I2C\clock.h</FilePath>
             </File>
           </Files>
         </Group>
