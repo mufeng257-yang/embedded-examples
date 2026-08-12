@@ -86,3 +86,6 @@ desktop.ini
 
 #vscode
 .vscode/
+
+#else
+Event.dot
