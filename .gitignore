@@ -67,6 +67,7 @@ dkms.conf
 *.lnp
 *.map
 *.build_log.htm
+EventRecorderStub.scvd
 
 # Keil local user settings
 *.uvoptx
